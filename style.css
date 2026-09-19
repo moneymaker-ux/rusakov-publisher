@@ -68,7 +68,7 @@ a { color: var(--accent); }
 .lead { font-size: 18px; color: var(--muted); }
 
 .yt-badge { display: inline-block; margin: 16px 0 8px; }
-.yt-badge img { height: 44px; width: auto; }
+.yt-badge img { height: 120px; width: auto; max-width: 100%; }
 
 ul { padding-left: 22px; }
 
