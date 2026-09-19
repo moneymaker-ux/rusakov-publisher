@@ -67,7 +67,16 @@ a { color: var(--accent); }
 
 .lead { font-size: 18px; color: var(--muted); }
 
-.yt-badge { display: inline-block; margin: 16px 0 8px; }
+/* плашка всегда тёмная: логотип с белым текстом виден в любой теме и в печати */
+.yt-badge {
+  display: inline-block;
+  margin: 16px 0 8px;
+  padding: 4px 12px;
+  background: #0f0f0f;
+  border-radius: 12px;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
 .yt-badge img { height: 120px; width: auto; max-width: 100%; }
 
 ul { padding-left: 22px; }
