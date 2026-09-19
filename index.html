@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rusakov Publisher</title>
+  <meta name="description" content="Internal publishing tool of the Pavel Rusakov YouTube channel.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="./">Rusakov Publisher</a>
+    <nav>
+      <a href="./" aria-current="page">Home</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Use</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Rusakov Publisher</h1>
+    <p class="lead">
+      An internal tool that publishes and manages videos on the YouTube channel
+      of Pavel Rusakov, an independent creator. It is used only by the channel owner
+      and is not available to the public.
+    </p>
+
+    <a class="yt-badge" href="https://www.youtube.com/@rusakovreal" title="Pavel Rusakov on YouTube">
+      <picture>
+        <source srcset="https://developers.google.com/static/youtube/images/developed-with-youtube-sentence-case-light.png" media="(prefers-color-scheme: dark)">
+        <img src="https://developers.google.com/static/youtube/images/developed-with-youtube-sentence-case-dark.png" alt="Developed with YouTube">
+      </picture>
+    </a>
+
+    <h2>What it does</h2>
+    <ul>
+      <li>
+        <strong>Uploads the channel's own videos.</strong> Finished Shorts are uploaded from the
+        owner's computer with a title, description, privacy status and scheduled publish time.
+        A video is uploaded only after the owner approves it in the content queue.
+      </li>
+      <li>
+        <strong>Reads statistics of the channel's own videos</strong> (views, likes, comments)
+        so the owner can plan new content.
+      </li>
+      <li>
+        <strong>Helps answer comments.</strong> Comments on the channel's own videos are collected,
+        a reply draft is prepared, and the reply is posted only after the owner reviews and
+        approves it.
+      </li>
+    </ul>
+
+    <h2>How it works</h2>
+    <p>
+      The tool runs on the owner's computer. It signs in to YouTube with Google OAuth 2.0,
+      using the channel owner's own Google account, and calls the YouTube Data API and the
+      YouTube Analytics API. Nobody else can sign in; there is no sign-up.
+    </p>
+
+    <h2>Privacy and terms</h2>
+    <p>
+      This tool uses YouTube API Services. By using it you agree to the
+      <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
+      See our <a href="privacy.html">Privacy Policy</a> and <a href="terms.html">Terms of Use</a>.
+    </p>
+  </main>
+
+  <footer>
+    Rusakov Publisher · <a href="privacy.html">Privacy Policy</a> ·
+    <a href="terms.html">Terms of Use</a> ·
+    <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> ·
+    Contact: <a href="mailto:traxxxyt@gmail.com">traxxxyt@gmail.com</a>
+  </footer>
+</body>
+</html>
